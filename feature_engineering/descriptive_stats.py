@@ -6,9 +6,6 @@ import plotly.express as px
 import numpy as np
 import pandas as pd
 
-classes = ['SALE', 'PURCHASE']
-y_name = 'achat_vente'
-
 
 def show_descriptive_stats(dataset: pd.DataFrame, feature_names: List[str], y_name: str, classes: List[str]):
     """
