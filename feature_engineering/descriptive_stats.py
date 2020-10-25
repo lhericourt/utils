@@ -72,7 +72,7 @@ def show_descriptive_stats(dataset: pd.DataFrame, feature_names: List[str], y_na
                 go.Scatter(
                     x=feature_values,
                     y=feature_density,
-                    fillcolor=colors[i],
+                    marker_color=colors[i],
                     showlegend=False
                 ),
                 row=1,
